@@ -17,7 +17,7 @@ driver = webdriver.Chrome(options=options)
 wait = WebDriverWait(driver, 20)
 
 # === Navigate to Target Page ===
-driver.get("https://www.kolabtree.com/find-an-expert?search=quantitative%20researcher")
+driver.get("https:/")
 
 # Accept cookies
 try:
